@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+a p {
+  font-family: "Raleway";
+  color: black;
+  text-decoration: none; }
+
+h1 {
+  font-family: "Fjalla One"; }
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0px; }
+
+.logo_header {
+  width: 130px; }
+
+#myCarousel {
+  margin-top: 50px; }
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff; }
+  .carousel-caption h1 {
+    font-size: 5vw; }
+
+.div_icons {
+  border-bottom: solid 4px #EEEEEE;
+  border-spacing: 35px; }
+  .div_icons img {
+    height: 50px; }
+  @media all and (max-width: 959px) and (min-width: 600px) {
+    .div_icons h1 {
+      font-size: 4vw; }
+    .div_icons img {
+      height: 40px; } }
+  @media all and (max-width: 599px) and (min-width: 50px) {
+    .div_icons h1 {
+      font-size: 5vw; }
+    .div_icons img {
+      height: 30px; } }
+
+.titre_hp {
+  text-align: center; }
+
+.h1_hp {
+  display: inline; }
+
+.img_flocon {
+  margin-top: -20px;
+  display: inline;
+  width: 30px; }
+
+.img_board {
+  margin-top: -20px;
+  display: inline;
+  width: 75px; }
+
+.img_fixation {
+  margin-top: -20px;
+  display: inline;
+  width: 25px; }
+
+.img_blouson {
+  margin-top: -20px;
+  display: inline;
+  width: 25px; }
+
+.img_gallery_hover {
+  position: absolute;
+  display: none; }
+
+.produits {
+  padding-top: 70px;
+  position: relative; }
+  .produits h1 {
+    text-align: center;
+    color: #39C4F3;
+    padding-bottom: 20px; }
+  .produits div {
+    padding-top: 30px; }
+  .produits div:hover .img_gallery_hover {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #39C4F3;
+    background-color: rgba(255, 255, 255, 0.5); }
+
+.img_gallery {
+  text-align: center; }
+  .img_gallery img {
+    width: 150px;
+    height: 150px; }
+
+.categories {
+  margin-top: 20px;
+  padding-bottom: 50px; }
+
+.form-group {
+  text-align: center; }
+  .form-group input {
+    margin-left: auto;
+    margin-right: auto; }
+
+.form-control {
+  width: 250px; }
+
+.info_site {
+  color: white;
+  background-color: #39C4F3; }
+
+@media all and (max-width: 1200px) {
+  iframe {
+    margin-top: 10px; } }
+.footer {
+  font-size: 10px;
+  padding-right: 10px; }
+
+.img_montagne {
+  height: 50px; }
+
+/**  PRODUITS  */
+.info_produit {
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 5%;
+  padding-bottom: 30px;
+  border-bottom: 4px solid #EEEEEE; }
+
+.col_left img {
+  height: 300px; }
+
+.panier {
+  padding: 10px;
+  border-radius: 10px;
+  width: 270px;
+  background-color: #39C4F3; }
+
+.border_grey {
+  border: solid 4px #EEEEEE;
+  padding: 10px;
+  padding-left: 20px;
+  margin-bottom: 50px; }
+  .border_grey span {
+    font-size: 15px; }
+
+.info_prix {
+  border-radius: 5px; }
+  .info_prix div {
+    margin-top: 20px; }
+
+.description {
+  padding-top: 20px;
+  margin-left: 10%; }
+
+.avantage {
+  font-size: 18px;
+  padding: 20px; }
+
+.blue {
+  color: #39C4F3; }
+
+/*# sourceMappingURL=style.css.map */
